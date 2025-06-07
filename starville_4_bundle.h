@@ -15,6 +15,7 @@ struct starville_4_bundle_t {
 
 struct starville_4_bundle_t *starville_4_bundle_init(struct dmx_data_t *dmx_data, uint16_t channel);
 void starville_4_bundle_set_dimmer(struct starville_4_bundle_t *starville_4_bundle, uint8_t dimmer);
+void starville_4_bundle_set_flash(struct starville_4_bundle_t *starville_4_bundle, uint8_t flash);
 void starville_4_bundle_set_leds_spot(struct starville_4_bundle_t *starville_4_bundle, uint8_t spot, uint8_t r, uint8_t g, uint8_t b);
 
 void starville_4_bundle_rot(struct starville_4_bundle_t *starville_4_bundle);

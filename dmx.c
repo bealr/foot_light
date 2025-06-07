@@ -105,10 +105,13 @@ void *dmx_send_th(void *arg) {
 
         dmx_send(dmx_data);
 
-        for (i=0; i<20;i++)
-            printf("%d ", dmx_data->channels[i]);
-        
-        printf("\n");
+    // for (i=0; i<70;i++) {
+    //     printf("%d ", dmx_data->channels[i]);
+    //     if (i % 10 == 0) {
+    //         printf("\n");
+    //     }
+    // }
+    // printf("\n");
         
         usleep(25000);
     }
